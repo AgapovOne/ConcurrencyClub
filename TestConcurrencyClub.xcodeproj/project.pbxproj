@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231005022C2D8CD3008D9909 /* NewDebouncer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231005012C2D8CCF008D9909 /* NewDebouncer.swift */; };
+		231005042C2D8FB2008D9909 /* Subscriptions-NotifCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231005032C2D8FAB008D9909 /* Subscriptions-NotifCenter.swift */; };
+		233344782C2158E000F10645 /* Subscriptions-Actor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233344772C2158E000F10645 /* Subscriptions-Actor.swift */; };
+		2333447A2C2158ED00F10645 /* Subscriptions-Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233344792C2158ED00F10645 /* Subscriptions-Subject.swift */; };
+		2333447C2C2158F800F10645 /* Subscriptions-Published.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2333447B2C2158F800F10645 /* Subscriptions-Published.swift */; };
+		2333447E2C215CE000F10645 /* Subscriptions-Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2333447D2C215CE000F10645 /* Subscriptions-Stream.swift */; };
+		2347A73D2C209CA1004EB581 /* Subscriptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2347A73C2C209CA1004EB581 /* Subscriptions.swift */; };
+		236CB0052C2BF00F00C81008 /* Clocks in Frameworks */ = {isa = PBXBuildFile; productRef = 236CB0042C2BF00F00C81008 /* Clocks */; };
 		236DCE912C12B97300D6C610 /* TestConcurrencyClubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236DCE902C12B97300D6C610 /* TestConcurrencyClubApp.swift */; };
 		236DCE932C12B97300D6C610 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236DCE922C12B97300D6C610 /* ContentView.swift */; };
 		236DCE952C12B97600D6C610 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236DCE942C12B97600D6C610 /* Assets.xcassets */; };
@@ -14,6 +22,9 @@
 		236DCEA22C12B97600D6C610 /* TestConcurrencyClubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236DCEA12C12B97600D6C610 /* TestConcurrencyClubTests.swift */; };
 		236DCEAC2C12B97600D6C610 /* TestConcurrencyClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236DCEAB2C12B97600D6C610 /* TestConcurrencyClubUITests.swift */; };
 		236DCEAE2C12B97600D6C610 /* TestConcurrencyClubUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236DCEAD2C12B97600D6C610 /* TestConcurrencyClubUITestsLaunchTests.swift */; };
+		2376FF7F2C2AB2AB002B30A7 /* Subscriptions-Not.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2376FF7E2C2AB2AB002B30A7 /* Subscriptions-Not.swift */; };
+		23FE1D692C20ABE40023E5F3 /* ConcurrencyExtras in Frameworks */ = {isa = PBXBuildFile; productRef = 23FE1D682C20ABE40023E5F3 /* ConcurrencyExtras */; };
+		23FE1D6B2C20ABE70023E5F3 /* AsyncAlgorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 23FE1D6A2C20ABE70023E5F3 /* AsyncAlgorithms */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +45,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		231005012C2D8CCF008D9909 /* NewDebouncer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDebouncer.swift; sourceTree = "<group>"; };
+		231005032C2D8FAB008D9909 /* Subscriptions-NotifCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subscriptions-NotifCenter.swift"; sourceTree = "<group>"; };
+		233344772C2158E000F10645 /* Subscriptions-Actor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subscriptions-Actor.swift"; sourceTree = "<group>"; };
+		233344792C2158ED00F10645 /* Subscriptions-Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subscriptions-Subject.swift"; sourceTree = "<group>"; };
+		2333447B2C2158F800F10645 /* Subscriptions-Published.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subscriptions-Published.swift"; sourceTree = "<group>"; };
+		2333447D2C215CE000F10645 /* Subscriptions-Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subscriptions-Stream.swift"; sourceTree = "<group>"; };
+		2347A73C2C209CA1004EB581 /* Subscriptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscriptions.swift; sourceTree = "<group>"; };
 		236DCE8D2C12B97300D6C610 /* TestConcurrencyClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestConcurrencyClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		236DCE902C12B97300D6C610 /* TestConcurrencyClubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConcurrencyClubApp.swift; sourceTree = "<group>"; };
 		236DCE922C12B97300D6C610 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +62,7 @@
 		236DCEA72C12B97600D6C610 /* TestConcurrencyClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestConcurrencyClubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		236DCEAB2C12B97600D6C610 /* TestConcurrencyClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConcurrencyClubUITests.swift; sourceTree = "<group>"; };
 		236DCEAD2C12B97600D6C610 /* TestConcurrencyClubUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConcurrencyClubUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2376FF7E2C2AB2AB002B30A7 /* Subscriptions-Not.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subscriptions-Not.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +70,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23FE1D692C20ABE40023E5F3 /* ConcurrencyExtras in Frameworks */,
+				23FE1D6B2C20ABE70023E5F3 /* AsyncAlgorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				236CB0052C2BF00F00C81008 /* Clocks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +100,7 @@
 				236DCEA02C12B97600D6C610 /* TestConcurrencyClubTests */,
 				236DCEAA2C12B97600D6C610 /* TestConcurrencyClubUITests */,
 				236DCE8E2C12B97300D6C610 /* Products */,
+				23FE1D672C20ABE40023E5F3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +119,14 @@
 			children = (
 				236DCE902C12B97300D6C610 /* TestConcurrencyClubApp.swift */,
 				236DCE922C12B97300D6C610 /* ContentView.swift */,
+				2347A73C2C209CA1004EB581 /* Subscriptions.swift */,
+				2333447D2C215CE000F10645 /* Subscriptions-Stream.swift */,
+				233344772C2158E000F10645 /* Subscriptions-Actor.swift */,
+				233344792C2158ED00F10645 /* Subscriptions-Subject.swift */,
+				2333447B2C2158F800F10645 /* Subscriptions-Published.swift */,
+				2376FF7E2C2AB2AB002B30A7 /* Subscriptions-Not.swift */,
+				231005032C2D8FAB008D9909 /* Subscriptions-NotifCenter.swift */,
+				231005012C2D8CCF008D9909 /* NewDebouncer.swift */,
 				236DCE942C12B97600D6C610 /* Assets.xcassets */,
 				236DCE962C12B97600D6C610 /* Preview Content */,
 			);
@@ -127,6 +158,13 @@
 			path = TestConcurrencyClubUITests;
 			sourceTree = "<group>";
 		};
+		23FE1D672C20ABE40023E5F3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +181,10 @@
 			dependencies = (
 			);
 			name = TestConcurrencyClub;
+			packageProductDependencies = (
+				23FE1D682C20ABE40023E5F3 /* ConcurrencyExtras */,
+				23FE1D6A2C20ABE70023E5F3 /* AsyncAlgorithms */,
+			);
 			productName = TestConcurrencyClub;
 			productReference = 236DCE8D2C12B97300D6C610 /* TestConcurrencyClub.app */;
 			productType = "com.apple.product-type.application";
@@ -161,6 +203,9 @@
 				236DCE9F2C12B97600D6C610 /* PBXTargetDependency */,
 			);
 			name = TestConcurrencyClubTests;
+			packageProductDependencies = (
+				236CB0042C2BF00F00C81008 /* Clocks */,
+			);
 			productName = TestConcurrencyClubTests;
 			productReference = 236DCE9D2C12B97600D6C610 /* TestConcurrencyClubTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -215,6 +260,11 @@
 				Base,
 			);
 			mainGroup = 236DCE842C12B97300D6C610;
+			packageReferences = (
+				236DCEBA2C12BF5400D6C610 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */,
+				23FE1D662C20ABC70023E5F3 /* XCRemoteSwiftPackageReference "swift-concurrency-extras" */,
+				236CB0012C2BEFFC00C81008 /* XCRemoteSwiftPackageReference "swift-clocks" */,
+			);
 			productRefGroup = 236DCE8E2C12B97300D6C610 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +307,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				231005042C2D8FB2008D9909 /* Subscriptions-NotifCenter.swift in Sources */,
+				2347A73D2C209CA1004EB581 /* Subscriptions.swift in Sources */,
+				2376FF7F2C2AB2AB002B30A7 /* Subscriptions-Not.swift in Sources */,
+				231005022C2D8CD3008D9909 /* NewDebouncer.swift in Sources */,
+				2333447C2C2158F800F10645 /* Subscriptions-Published.swift in Sources */,
 				236DCE932C12B97300D6C610 /* ContentView.swift in Sources */,
+				2333447E2C215CE000F10645 /* Subscriptions-Stream.swift in Sources */,
+				233344782C2158E000F10645 /* Subscriptions-Actor.swift in Sources */,
 				236DCE912C12B97300D6C610 /* TestConcurrencyClubApp.swift in Sources */,
+				2333447A2C2158ED00F10645 /* Subscriptions-Subject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +413,8 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -410,6 +470,8 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -430,15 +492,16 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-enable-experimental-feature IsolatedAny";
 				PRODUCT_BUNDLE_IDENTIFIER = com.agpone.TestConcurrencyClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -459,15 +522,16 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-enable-experimental-feature IsolatedAny";
 				PRODUCT_BUNDLE_IDENTIFIER = com.agpone.TestConcurrencyClub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -486,7 +550,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.agpone.TestConcurrencyClubTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestConcurrencyClub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestConcurrencyClub";
 			};
@@ -506,7 +569,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.agpone.TestConcurrencyClubTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestConcurrencyClub.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TestConcurrencyClub";
 			};
@@ -524,7 +586,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.agpone.TestConcurrencyClubUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TestConcurrencyClub;
 			};
@@ -542,7 +603,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.agpone.TestConcurrencyClubUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = TestConcurrencyClub;
 			};
@@ -588,6 +648,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		236CB0012C2BEFFC00C81008 /* XCRemoteSwiftPackageReference "swift-clocks" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-clocks.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.2;
+			};
+		};
+		236DCEBA2C12BF5400D6C610 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-async-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		23FE1D662C20ABC70023E5F3 /* XCRemoteSwiftPackageReference "swift-concurrency-extras" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-concurrency-extras.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		236CB0042C2BF00F00C81008 /* Clocks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 236CB0012C2BEFFC00C81008 /* XCRemoteSwiftPackageReference "swift-clocks" */;
+			productName = Clocks;
+		};
+		23FE1D682C20ABE40023E5F3 /* ConcurrencyExtras */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 23FE1D662C20ABC70023E5F3 /* XCRemoteSwiftPackageReference "swift-concurrency-extras" */;
+			productName = ConcurrencyExtras;
+		};
+		23FE1D6A2C20ABE70023E5F3 /* AsyncAlgorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 236DCEBA2C12BF5400D6C610 /* XCRemoteSwiftPackageReference "swift-async-algorithms" */;
+			productName = AsyncAlgorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 236DCE852C12B97300D6C610 /* Project object */;
 }

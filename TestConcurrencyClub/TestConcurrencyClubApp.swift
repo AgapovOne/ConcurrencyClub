@@ -9,9 +9,25 @@ import SwiftUI
 
 @main
 struct TestConcurrencyClubApp: App {
+
+    @State var isPresented = false
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                VStack(spacing: 32) {
+                    Button("Open") {
+                        isPresented.toggle()
+                    }
+
+//                    Button("Rename") {
+//                        TheService.shared.name.setValue("\((0...1000).randomElement()!)")
+//                    }
+                }
+                .navigationDestination(isPresented: $isPresented) {
+                    SubscriptionsViewNotifCenter()
+                }
+            }
         }
     }
 }
